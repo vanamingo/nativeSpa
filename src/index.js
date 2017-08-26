@@ -1,3 +1,5 @@
-console.log('Hello WOrld! SPA');
+import {bootstrap} from './framework/core/bootstrap';
+import {appModule} from './app/app.module';
 
-document.querySelector('h1').textContent = 'Works!';
+
+bootstrap(appModule);
