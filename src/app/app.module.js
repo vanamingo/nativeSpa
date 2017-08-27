@@ -1,3 +1,4 @@
+import { appHeader } from './common/app.header';
 import { appComponent } from './app.component';
 import {WFMModule} from '../framework/index'
 
@@ -12,7 +13,8 @@ class AppModule extends WFMModule{
 
 export const appModule = new AppModule({
     components: [
-            appComponent
+            appComponent, 
+            appHeader
     ]
 
 });
