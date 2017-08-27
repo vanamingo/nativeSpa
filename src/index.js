@@ -5,4 +5,4 @@ console.log('setTimeout');
 setTimeout(function(){
     console.log('bootstrap');
     bootstrap(appModule);
-} , 3000);
+} , 1000);
